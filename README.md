@@ -4,14 +4,39 @@
 Ce projet vise à **prédire le churn client** à partir de données bancaires, tout en **suivant et comparant les modèles ML** (Logistic Regression, Random Forest, XGBoost) via **MLflow**.
 
 ```mermaid
-graph LR
-    A[Dataset.csv] --> B[1_data_preparation.ipynb]
-    B --> C[2_preprocessing_pipeline.py]
-    C --> D[3_training_mlflow.ipynb]
-    D --> E["MLflow Logging: runs, models"]
-    E --> F[4_model_analysis.ipynb]
-    F --> G[5_demo_pipeline.ipynb]
-    G --> H[Prediction + Rapport Final]
+graph TD
+    A[Dataset.csv] --> B["1_data_preparation.ipynb"]
+    B --> C["preprocessing_pipeline.py"]
+    C --> D["3_training_mlflow.ipynb"]
+    D --> E["MLflow Logging"]
+    E --> F["mlruns/ (runs, modèles, métriques, artefacts)"]
+    F --> G["4_model_analysis.ipynb"]
+    G --> H["Comparaison des modèles et visualisations"]
+    H --> I["5_demo_pipeline.ipynb"]
+    I --> J["Prédiction finale sur clients"]
+    I --> K["outputs/reports/model_comparison.md"]
+
+    subgraph Notebooks
+        B
+        D
+        G
+        I
+    end
+
+    subgraph Scripts
+        C
+    end
+
+    subgraph MLflow
+        E
+        F
+    end
+
+    subgraph Outputs
+        H
+        J
+        K
+    end
 
 ```
 ---
