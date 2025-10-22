@@ -133,8 +133,19 @@ Accessible sur : http://localhost:5000
 
 ## 📚 Références
 
+### Documentation officielle
 - [MLflow Documentation](https://www.mlflow.org/docs/latest/index.html)
+- [MLflow Documentation Officielle](https://mlflow.org)
 - [Scikit-learn User Guide](https://scikit-learn.org/stable/user_guide.html)
+- [Scikit-learn Guide – Pipeline, SMOTE, Class Weights](https://scikit-learn.org/stable/)
 - [XGBoost Documentation](https://xgboost.readthedocs.io/en/stable/)
 - [Imbalanced-learn Documentation](https://imbalanced-learn.org/stable/)
+
+### Datasets
+- [Kaggle Dataset – Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
+
+### Livres & Articles
+- Géron, A. (2023), *Hands-On Machine Learning*, O’Reilly
+- [Databricks Blog – Managing ML Lifecycle with MLflow](https://www.databricks.com/blog/2020/06/23/managing-ml-lifecycle-with-mlflow.html)
+
 
