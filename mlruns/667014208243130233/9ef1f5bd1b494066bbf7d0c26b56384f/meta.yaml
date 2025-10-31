@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/PC/Desktop/sprint5/Churn-Prediction-avec-MLflow/mlruns/667014208243130233/9ef1f5bd1b494066bbf7d0c26b56384f/artifacts
+end_time: 1761903195677
+entry_point_name: ''
+experiment_id: '667014208243130233'
+lifecycle_stage: active
+run_id: 9ef1f5bd1b494066bbf7d0c26b56384f
+run_name: flawless-asp-958
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761903188164
+status: 3
+tags: []
+user_id: PC
