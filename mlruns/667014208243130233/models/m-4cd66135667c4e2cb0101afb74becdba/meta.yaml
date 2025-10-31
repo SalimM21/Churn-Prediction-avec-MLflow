@@ -1,0 +1,10 @@
+artifact_location: file:///c:/Users/PC/Desktop/sprint5/Churn-Prediction-avec-MLflow/mlruns/667014208243130233/models/m-4cd66135667c4e2cb0101afb74becdba/artifacts
+creation_timestamp: 1761903188309
+experiment_id: '667014208243130233'
+last_updated_timestamp: 1761903195660
+model_id: m-4cd66135667c4e2cb0101afb74becdba
+model_type: null
+name: model
+source_run_id: 9ef1f5bd1b494066bbf7d0c26b56384f
+status: 2
+status_message: null
