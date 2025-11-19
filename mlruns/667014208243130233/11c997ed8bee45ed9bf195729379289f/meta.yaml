@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/PC/Desktop/sprint5/Churn-Prediction-avec-MLflow/mlruns/667014208243130233/11c997ed8bee45ed9bf195729379289f/artifacts
+end_time: 1763553648348
+entry_point_name: ''
+experiment_id: '667014208243130233'
+lifecycle_stage: active
+run_id: 11c997ed8bee45ed9bf195729379289f
+run_name: Model_Analysis
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763553648245
+status: 4
+tags: []
+user_id: PC
